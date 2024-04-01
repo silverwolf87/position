@@ -1,0 +1,69 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.contenedor{
+    border: 1px solid red ;
+    height: 100vh;
+    
+}
+
+
+.position {
+    height: 100px;
+    width: 80px;
+    display: flex;
+    justify-content:space-between ;
+    align-items: center;
+    
+}
+
+.static {
+    background-color: black;
+    color: aliceblue;
+ 
+
+   
+   
+}
+
+.relative{
+    background-color: rgb(32, 12, 146);
+    color: aliceblue;
+    position: relative;
+    top: 0;
+    right: 0;
+    bottom: 0;
+    left: 0;
+
+}
+.absolute{
+    background-color: rgb(87, 243, 70);
+    color: aliceblue;
+    
+  
+
+}
+
+.fixed{
+    background-color: rgb(146, 46, 12);
+    color: aliceblue;
+    position: fixed;
+    top: 0;
+    right: 80%;
+
+}
+
+.sticky{
+    background-color: rgb(96, 240, 253);
+    color: aliceblue;
+
+}
+
+
+
+
+
+
